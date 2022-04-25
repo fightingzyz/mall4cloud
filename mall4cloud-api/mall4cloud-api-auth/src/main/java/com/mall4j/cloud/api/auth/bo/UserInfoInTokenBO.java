@@ -5,7 +5,7 @@ import com.mall4j.cloud.api.auth.constant.SysTypeEnum;
 /**
  * source tree
  * 保存在token信息里面的用户信息
- *
+ * 1111
  * com.mall4j.cloud.auth.service.impl.AuthAccountServiceImpl
  * com.mall4j.cloud.auth.controller.LoginController
  * @author FrozenWatermelon
