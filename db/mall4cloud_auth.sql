@@ -40,7 +40,9 @@ CREATE TABLE `auth_account` (
 -- ----------------------------
 -- Records of auth_account
 -- ----------------------------
-INSERT INTO `auth_account` VALUES (1, '2021-07-01 11:07:38', '2021-07-03 13:11:52', 'admin', '$2a$10$EiwfzqsAVUtuJ0Ry5YPMPOeyc/4shzSUcqMBRInKTijzir48LLkM.', '127.0.0.1', 1, 2, 1, 0, 1);
+INSERT INTO `auth_account` VALUES
+(1, '2021-07-01 11:07:38', '2021-07-03 13:11:52', 'admin', '$2a$10$EiwfzqsAVUtuJ0Ry5YPMPOeyc/4shzSUcqMBRInKTijzir48LLkM.', '127.0.0.1', 1, 2, 1, 0, 1),
+(112115,'2022-04-14 16:36:13','2022-04-14 16:36:13','admin','$2a$10$fr9bj14bAJW54agVbZizceMODrC4W8sbVotfH5324q0t50HNdpRqa','59.41.161.208',1,1,110400,324,1);
 
 /*Table structure for table `undo_log` */
 
@@ -58,6 +60,10 @@ CREATE TABLE `undo_log` (
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE KEY `ux_undo_log` (`xid`,`branch_id`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=397 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+INSERT INTO `mall4cloud_auth`.`auth_account` (`uid`, `create_time`, `update_time`, `username`, `password`, `create_ip`, `status`, `sys_type`, `user_id`, `tenant_id`, `is_admin`) VALUES (2, '2021-07-01 11:07:38', '2022-04-25 14:47:40', 'hyg123', '$2a$10$EiwfzqsAVUtuJ0Ry5YPMPOeyc/4shzSUcqMBRInKTijzir48LLkM.', '127.0.0.1', 1, 1, 1, 0, 1);
+
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

@@ -14,6 +14,10 @@
 
 gitee：https://gitee.com/gz-yami/mall4cloud/tree/master/doc
 
+**开发环境搭建视频（推荐先看下文档再看视频）：https://www.bilibili.com/video/BV1TK411C7aV** 
+
+有声音了。如果视频对你有用，记得点赞投币噢。 
+
 本项目是一个极度遵守阿里巴巴代码规约的项目，以下是代码规约扫描结果
 
 
@@ -47,13 +51,15 @@ pc端：https://cloud-pc.mall4j.com
 
 H5端：https://h5.mall4j.com/cloud
 
-小程序：微信搜索 “mall4j微服务版”
+商业版小程序演示
+
+![输入图片说明](doc/img/readme/%E7%99%BD%E6%B4%9E%E7%89%88%E5%B0%8F%E7%A8%8B%E5%BA%8F.png)
 
 ## 目录结构规范
 
 我们也有自己的目录结构
 
-![img](https://gitee.com/gz-yami/mall4cloud/raw/master/doc/img/%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E5%92%8C%E8%A7%84%E8%8C%83/%E5%BA%94%E7%94%A8%E5%88%86%E5%B1%82.png)
+![img](./doc/img/%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E5%92%8C%E8%A7%84%E8%8C%83/%E5%BA%94%E7%94%A8%E5%88%86%E5%B1%82.png)
 
 - VO（View Object）：显示层对象，通常是 Web 向模板渲染引擎层传输的对象。
 - DTO（Data Transfer Object）：数据传输对象，前端像后台进行传输的对象，类似于param。
@@ -119,16 +125,16 @@ mall4cloud
 
 ## 商城部署后 API 地址
 
-| 服务                                                 | 地址                  |
-| ---------------------------------------------------- | --------------------- |
-| mall4cloud-gatway 网关服务                           | http://127.0.0.1:9000 |
+| 服务                                                 | 地址                    |
+| ---------------------------------------------------- |-----------------------|
+| mall4cloud-gatway 网关服务                           | http://127.0.0.1:8000 |
 | mall4cloud-auth  授权校验服务                        | http://127.0.0.1:9101 |
 | mall4cloud-biz     业务代码服务（如图片上传/短信等） | http://127.0.0.1:9000 |
 | mall4cloud-leaf   基于美团leaf的生成id服务           | http://127.0.0.1:9100 |
 | mall4cloud-multishop 商家服务                        | http://127.0.0.1:9103 |
 | mall4cloud-order         订单服务                    | http://127.0.0.1:9106 |
 | mall4cloud-payment   支付服务                        | http://127.0.0.1:9113 |
-| mall4cloud-product    商品服务                       | http://127.0.0.1:9112 |
+| mall4cloud-product    商品服务                       | http://127.0.0.1:9114 |
 | mall4cloud-rbac          用户角色服务                | http://127.0.0.1:9102 |
 | mall4cloud-search      搜索服务                      | http://127.0.0.1:9108 |
 | mall4cloud-user          用户服务                    | http://127.0.0.1:9105 |
@@ -164,14 +170,12 @@ mall4cloud
 
 ## 提交反馈
 - Mall4j官网 https://www.mall4j.com
-- 商务合作微信
-
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0703/131508_13858876_5094767.jpeg "法宝微信2.jpg")
-
-
 - mall4cloud开源技术QQ群：561496886
+- 如需购买商业版源码，请联系商务微信
 
-![输入图片说明](https://images.gitee.com/uploads/images/2021/1119/134157_dd977d46_5094767.png "微信图片_20211119134107.png")
+  ![输入图片说明](https://19838323.s21i.faiusr.com/4/4/ABUIABAEGAAgksmNlAYojomK2gIwrAI4rAI!160x160.png)
+
+
 
 ## springboot版本商城请点击
 https://gitee.com/gz-yami/mall4j
@@ -179,3 +183,5 @@ https://gitee.com/gz-yami/mall4j
 ## 你的点赞鼓励，是我们前进的动力~
 ## 你的点赞鼓励，是我们前进的动力~
 ## 你的点赞鼓励，是我们前进的动力~
+
+## 更多信息请查看官网 https://www.mall4j.com

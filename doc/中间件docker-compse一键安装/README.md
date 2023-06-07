@@ -33,12 +33,18 @@ docker-compose up -d --build
  - redis: 端口6379，没有密码
  - nacos: http://192.168.1.46:8848/nacos 账号及密码 nacos/nacos
  - kibana: http://192.168.1.46:5601
- - rocketmq-console：http://192.168.1.46:8180
+ - rocketmq-dashboard：http://192.168.1.46:8180
 
 
 6.访问minio管理页面，右下角有个加号，创建存储区域(create bucker) 名为`mall4cloud`
 
 ![image-20210616090042502](../img/中间件安装/minio新建桶.png)
+
+若要前端可以读取图片，需要设置权限
+
+![image-20210629112059876](../img/中间件安装/minio设置权限.png)
+
+![](../img/中间件安装/minio设置权限-2.png)
 
 7.创建es索引
 
